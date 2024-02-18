@@ -1,6 +1,5 @@
-/// @desc
 
-//Draw black fading
+// Draw black fading
 if (transition_mode != TRANSITION_MODE.OFF)
 {
 	draw_set_color(c_black)
@@ -8,7 +7,7 @@ if (transition_mode != TRANSITION_MODE.OFF)
 	draw_rectangle(0, 0, GUI_WIDTH, GUI_HEIGHT, false)
 }
 
-//Reset the color and alpha for all our other draw events
+// Reset the color and alpha for all our other draw events
 draw_set_color(c_white)
 draw_set_alpha(1)
 

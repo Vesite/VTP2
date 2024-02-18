@@ -1,10 +1,9 @@
-/// @desc 
 
 event_inherited()
 
 var _input = _ctrl_input
 
-//Check for collision with the slider handle. get "is_inside_handle"
+// Check for collision with the slider handle. get "is_inside_handle"
 var _w = slider_handle_width
 var _h = slider_handle_height
 
@@ -32,7 +31,7 @@ if draw_in_gui {
 	else {
 		if not _check {
 		
-			//Do nothing when we leave the button?
+			// Do nothing when we leave the button?
 			is_inside_handle = false
 			handle_image_index = 0
 		}
@@ -43,7 +42,7 @@ if draw_in_gui {
 		
 		if _input.mouse_left_clicked {
 		
-			//Here we have clicked the button
+			// Here we have clicked the button
 			is_holding_handle = true
 		
 		}
@@ -57,7 +56,7 @@ if draw_in_gui {
 #endregion
 
 
-//Change the position of "handle_
+// Change the position of "handle_
 if is_holding_handle {
 	
 	if draw_in_gui {
@@ -69,7 +68,7 @@ if is_holding_handle {
 	var _slider_x_left = x - width/2 + delta + left_box_width + delta
 	slider_handle_x = clamp(slider_handle_x, _slider_x_left, _slider_x_left + slider_width)
 	
-	//Set the current value based on the position of the handle
+	// Set the current value based on the position of the handle
 	var _dist_from_slider_left = slider_handle_x - _slider_x_left
 	var _current_slider_val = _dist_from_slider_left/(slider_width)
 	slider_set_value(slider_enum, _current_slider_val)

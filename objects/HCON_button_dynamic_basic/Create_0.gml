@@ -1,4 +1,3 @@
-/// @desc
 
 event_inherited()
 

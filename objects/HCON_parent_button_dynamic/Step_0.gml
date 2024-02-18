@@ -1,5 +1,3 @@
-/// @desc
-
 /*
 Decide "is_inside" and "show_hover_text"
 */
@@ -40,12 +38,12 @@ if is_inside {
 if is_inside {
 		
 	if _input.mouse_left_clicked {
-		//Here we have clicked the button
+		// Here we have clicked the button
 		event_user(3)
 	}
 		
 	if mouse_check_button_released(mb_left) {
-		current_subimage = 1 //Hover
+		current_subimage = 1 // Hover
 		button_content_y_offset = 0
 	}
 		

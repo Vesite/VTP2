@@ -1,3 +1,3 @@
 
-//Make the object a singleton
+// Make the object a Singleton
 if (assign_singleton() == false)	exit

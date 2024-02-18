@@ -1,4 +1,12 @@
-/// @desc
+
+#region Initialize some game variables
+
+	draw_set_font(FONT_NORMAL)
+	my_set_text_align(fa_center, fa_middle)
+	draw_set_color(c_white)
+	draw_set_alpha(1)
+
+#endregion
 
 #region Initialize singleton objects
 
@@ -20,5 +28,5 @@ while (object_exists(_o_index))
 
 #endregion
 
-//Goto next room to start the game
-room_goto_next()
+// Go to the starting room
+room_goto(r_menu)

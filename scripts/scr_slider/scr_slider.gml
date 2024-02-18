@@ -1,6 +1,6 @@
 
 /*
-Give a value from 0 to 1 and set the sliders global.variable
+Give a value from 0 to 1 and set the sliders related global variable
 */
 function slider_set_value(_slider_enum, _value) {
 	

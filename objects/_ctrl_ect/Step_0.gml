@@ -1,5 +1,3 @@
-/// @desc
-
 
 //if DEV and mouse_check_button_pressed(mb_left) and not P {
 	
@@ -11,4 +9,9 @@
 	
 //	mycon_draw_sprite(mouse_x, mouse_y, "Instances", s_block_template, true,, random_range(-2, 2), random_range(-2, 2), choose(c_blue, c_white))
 	
+//}
+
+
+//if mouse_check_button_pressed(mb_left) {
+//	my_play_audio(so_pause_1, global.ae_sfx, 5, false, 1, 0.5,)
 //}

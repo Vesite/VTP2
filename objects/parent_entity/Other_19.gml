@@ -1,6 +1,6 @@
 /// @desc Collision
 
-//Horizontal Collision
+// Horizontal Collision
 if (place_meeting(x + hsp, y, parent_collision))
 {
 	while (!place_meeting(x + sign(hsp), y, parent_collision))
@@ -11,7 +11,7 @@ if (place_meeting(x + hsp, y, parent_collision))
 }
 x += hsp
 	
-//Vertical Collision
+// Vertical Collision
 if (place_meeting(x, y + vsp, parent_collision))
 {
 	while (!place_meeting(x, y + sign(vsp), parent_collision))

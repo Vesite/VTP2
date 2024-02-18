@@ -1,6 +1,5 @@
-/// @desc 
 
-//Find a "playable_parent" as target_room
+// Find a "playable_parent" as target_room
 for (var _i = 0; _i < (instance_number(playable_parent)); _i++) {
     
 	var _id = instance_find(playable_parent, _i)
@@ -12,7 +11,7 @@ if instance_number(playable_parent) = 0 {
 	follow_target = undefined	
 }
 
-//Teleport the camera right to the follow_target!
+// Teleport the camera right to the follow_target!
 if not is_undefined(follow_target)
 {
 	var _x_start = follow_target.x

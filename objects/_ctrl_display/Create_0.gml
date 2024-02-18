@@ -1,6 +1,6 @@
 
-//Make the object a singleton
-if (assign_singleton() == false)	exit
+// Make the object a Singleton
+if (assign_singleton() == false) exit
 
 //Helper Variables
 current_browser_width = display_get_width()

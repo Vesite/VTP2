@@ -1,4 +1,3 @@
-/// @desc
 
 var _a = duration/duration_max
 

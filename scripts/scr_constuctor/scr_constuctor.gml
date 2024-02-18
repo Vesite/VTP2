@@ -66,7 +66,6 @@
 	
 	}
 	
-	
 	/*
 	Each slider needs an ENUM "connection" thing to know what variable it is modifying
 	*/

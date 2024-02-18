@@ -1,6 +1,4 @@
 
-
-
 function toggle_value_from_enum(_toggle_enum) {
 	
 	switch (_toggle_enum) {

@@ -1,7 +1,7 @@
 
 function assign_singleton() {
 
-	//Make the objet a singleton
+	// Make the objet a singleton
 	if (instance_number(object_index) > 1)
 	{
 		instance_destroy()
@@ -65,18 +65,17 @@ function my_set_text_align(_halign, _valign) {
 	draw_set_valign(_valign)
 }
 
-function my_play_sound(_sound, _emitter, _prio, _loop, _pitch_vary=0) {
-	
-	//Chance the pitch of the sound
-	if _pitch_vary != 0 {
-		audio_sound_pitch(_sound, random_range(1 - _pitch_vary, 1 + _pitch_vary))
+function my_play_audio(_sound, _emitter=undefined, _priority=5, _loop=false, _pitch=1.0, _pitch_vary=0, _gain=1.0) {
+
+	var _sound_params = {
+		sound: _sound,
+		priority: _priority,
+		loop: _loop,
+		gain: _gain,
+		pitch: random_range(_pitch - _pitch_vary, _pitch + _pitch_vary),
+		emitter: _emitter,
 	}
 	
-	audio_play_sound_on(_emitter, _sound, _loop, _prio)
-	
-	//Reset
-	if _pitch_vary != 0 {
-		audio_sound_pitch(_sound, 1)
-	}
+	return audio_play_sound_ext(_sound_params)
 	
 }

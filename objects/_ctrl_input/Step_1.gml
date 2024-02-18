@@ -1,6 +1,5 @@
-/// @desc
 
-//Workaround for inputs in html
+// Workaround for inputs in html?
 if mouse_check_button(mb_any) { focus_window() }
 
 mouse_left_clicked = mouse_check_button_pressed(mb_left)

@@ -1,4 +1,3 @@
-/// @desc
 
 if P exit
 

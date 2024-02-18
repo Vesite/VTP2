@@ -1,6 +1,3 @@
-/// @desc
-
-
 
 function set_on_ground(_val = true) {
 	if _val == true {
@@ -11,8 +8,6 @@ function set_on_ground(_val = true) {
 		coyote_hang_timer = 0
 	}
 }
-
-
 
 event_inherited()
 

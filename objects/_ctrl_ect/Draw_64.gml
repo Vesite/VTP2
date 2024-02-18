@@ -1,5 +1,3 @@
-/// @desc 
-
 
 if _ctrl_input.mouse_left_hold {
 	var _ind = 1	
@@ -7,7 +5,7 @@ if _ctrl_input.mouse_left_hold {
 	var _ind = 0
 }
 
-//Draw cursor
+// Draw cursor
 if not P {
 	draw_sprite(s_cursor_16x, _ind, MOUSE_GUI_X, MOUSE_GUI_Y)
 } else {

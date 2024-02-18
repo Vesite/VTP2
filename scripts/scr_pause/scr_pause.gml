@@ -1,5 +1,4 @@
 
-
 function end_pause() {
 	
 	with (_ctrl_pause) {
@@ -7,5 +6,3 @@ function end_pause() {
 	}
 	
 }
-
-

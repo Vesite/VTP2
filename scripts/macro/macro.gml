@@ -1,16 +1,4 @@
 
-#region Initalize Game
-
-	global.paused = true
-	draw_set_font(f_12x_equipment)
-	my_set_text_align(fa_center, fa_middle)
-	
-	#macro FONT_NORMAL f_12x_equipment
-	#macro FONT_TITLE f_12x_compass
-	#macro FONT_NUMBERS f_12x_matchup
-
-#endregion
-
 // General Options
 #macro SHOW_DEBUG false
 #macro ENABLE_SCREENSHAKE true
@@ -23,9 +11,9 @@ enum TOGGLE_ENUM {
 	ENABLE_AMBIENCE,
 }
 
-/*
-Use this an a input to a function, that function will also get the sliders value (from 0 to 1) and set a corresponding global variable to a updated value.
-*/
+
+// Use this an a input to a function
+// That function will also get the sliders value (from 0 to 1) and set a corresponding global variable to a updated value.
 enum SLIDER_ENUM {
 	VOLUME_MASTER,
 	VOLUME_SFX,
@@ -41,12 +29,15 @@ enum SLIDER_ENUM {
 
 // Visual
 #macro PAUSE_ALPHA 0.75
+#macro FONT_NORMAL f_12x_equipment
+#macro FONT_TITLE f_12x_compass
+#macro FONT_NUMBERS f_12x_matchup
 
 // Display Size
-#macro MY_GAME_WIDTH (1080/2)
-#macro MY_GAME_HEIGHT (1080/2)
-#macro GUI_WIDTH 1080/2
-#macro GUI_HEIGHT 1080/2
+#macro MY_GAME_WIDTH (1920/3)
+#macro MY_GAME_HEIGHT (1080/3)
+#macro GUI_WIDTH 1920/3
+#macro GUI_HEIGHT 1080/3
 
 // Shorthands
 #macro DEV false
