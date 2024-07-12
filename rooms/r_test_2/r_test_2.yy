@@ -25,7 +25,6 @@
     {"name":"inst_C8F807","path":"rooms/r_test_2/r_test_2.yy",},
     {"name":"inst_25B77C6B","path":"rooms/r_test_2/r_test_2.yy",},
     {"name":"inst_3FEAF00","path":"rooms/r_test_2/r_test_2.yy",},
-    {"name":"inst_610CE273","path":"rooms/r_test_2/r_test_2.yy",},
     {"name":"inst_4206C033","path":"rooms/r_test_2/r_test_2.yy",},
     {"name":"inst_6604753F","path":"rooms/r_test_2/r_test_2.yy",},
     {"name":"inst_34C9C1B3","path":"rooms/r_test_2/r_test_2.yy",},
@@ -101,6 +100,7 @@
     {"name":"inst_386E9D29","path":"rooms/r_test_2/r_test_2.yy",},
     {"name":"inst_2E990796","path":"rooms/r_test_2/r_test_2.yy",},
     {"name":"inst_AC4B4DA","path":"rooms/r_test_2/r_test_2.yy",},
+    {"name":"inst_112B7756","path":"rooms/r_test_2/r_test_2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -111,10 +111,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_AC4B4DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"music_box","path":"objects/music_box/music_box.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"music_box","path":"objects/music_box/music_box.yy",},"propertyId":{"name":"song","path":"objects/music_box/music_box.yy",},"value":"so_am_airy",},
           ],"rotation":0.0,"scaleX":2.0,"scaleY":4.0,"x":416.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_112B7756","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"player_object","path":"objects/player_object/player_object.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_610CE273","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"playable_alucard","path":"objects/playable_alucard/playable_alucard.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":192.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29A1963E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"block_2","path":"objects/block_2/block_2.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":32.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_174E248E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"block_2","path":"objects/block_2/block_2.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":0.0,"y":320.0,},

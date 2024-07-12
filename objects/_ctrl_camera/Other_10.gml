@@ -1,13 +1,13 @@
 
-// Find a "playable_parent" as target_room
-for (var _i = 0; _i < (instance_number(playable_parent)); _i++) {
+// Find a "player_object" as target_room
+for (var _i = 0; _i < (instance_number(player_object)); _i++) {
     
-	var _id = instance_find(playable_parent, _i)
+	var _id = instance_find(player_object, _i)
 	follow_target = _id
 	
 }
 
-if instance_number(playable_parent) = 0 {
+if instance_number(player_object) = 0 {
 	follow_target = undefined	
 }
 
